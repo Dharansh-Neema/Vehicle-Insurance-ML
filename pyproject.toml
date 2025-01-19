@@ -1,0 +1,11 @@
+[project]
+name="src"
+version="1.0.0"
+description = "An Production ready Vehicle Insurance predection"
+authors = [{name="Dharansh Neema", email="dharanshneema@gmail.com"}]
+
+[tool.setuptools]
+packages = {find={}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
