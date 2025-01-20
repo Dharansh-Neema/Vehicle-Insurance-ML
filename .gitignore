@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 
 credential.txt
+
+notebook
